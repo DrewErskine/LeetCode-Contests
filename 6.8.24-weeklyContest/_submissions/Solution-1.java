@@ -1,4 +1,4 @@
-class Solution1 {
+class Solution {
     public int numberOfChild(int n, int k) {
         int cycleLength = 2 * (n - 1);
         int p = k % cycleLength;

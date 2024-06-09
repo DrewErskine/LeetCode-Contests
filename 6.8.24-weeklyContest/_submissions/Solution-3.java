@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution3 {
+class Solution {
 
     private Integer[][] memo;
     private int maxSum;

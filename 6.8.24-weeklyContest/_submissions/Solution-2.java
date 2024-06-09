@@ -1,10 +1,10 @@
-public class Solution2 {
+class Solution {
     private static final int modulo = 1000000007;
     private static final int maxTime = 1000;
     private long[] factorial = new long[maxTime + 1];
     private long[] invFactorial = new long[maxTime + 1];
 
-    public Solution2() {
+    public Solution() {
         factorial[0] = 1;
         for (int i = 1; i <= maxTime; i++) {
             factorial[i] = factorial[i - 1] * i % modulo;

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.solutions.TestSolutions" time="0.023" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.solutions.TestSolutions" time="0.024" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Dmers\Code\LeetCode\6.8.24-weeklyContest\target\test-classes;C:\Users\Dmers\Code\LeetCode\6.8.24-weeklyContest\target\classes;C:\Users\Dmers\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Dmers\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dmers\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dmers\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Dmers\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Dmers\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\Dmers\Code\Spring\PeepPeaProtect\LeetCode-Contest\6.8.24-weeklyContest\target\test-classes;C:\Users\Dmers\Code\Spring\PeepPeaProtect\LeetCode-Contest\6.8.24-weeklyContest\target\classes;C:\Users\Dmers\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Dmers\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dmers\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dmers\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Dmers\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Dmers\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,10 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dmers\AppData\Local\Temp\surefire3877641952265853066\surefirebooter11832417502268102306.jar C:\Users\Dmers\AppData\Local\Temp\surefire3877641952265853066 2024-06-09T02-38-53_590-jvmRun1 surefire7384484931653824472tmp surefire_018054329137285109988tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dmers\AppData\Local\Temp\surefire86411069188002724\surefirebooter4018700882546003499.jar C:\Users\Dmers\AppData\Local\Temp\surefire86411069188002724 2024-06-09T13-02-11_636-jvmRun1 surefire6332126484198995553tmp surefire_07999956063413217067tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.example.solutions.TestSolutions"/>
-    <property name="surefire.test.class.path" value="C:\Users\Dmers\Code\LeetCode\6.8.24-weeklyContest\target\test-classes;C:\Users\Dmers\Code\LeetCode\6.8.24-weeklyContest\target\classes;C:\Users\Dmers\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Dmers\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dmers\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dmers\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Dmers\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Dmers\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dmers\Code\Spring\PeepPeaProtect\LeetCode-Contest\6.8.24-weeklyContest\target\test-classes;C:\Users\Dmers\Code\Spring\PeepPeaProtect\LeetCode-Contest\6.8.24-weeklyContest\target\classes;C:\Users\Dmers\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Dmers\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dmers\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dmers\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Dmers\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Dmers\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dmers"/>
     <property name="user.language" value="en"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2024-04-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Dmers\Code\LeetCode\6.8.24-weeklyContest"/>
+    <property name="basedir" value="C:\Users\Dmers\Code\Spring\PeepPeaProtect\LeetCode-Contest\6.8.24-weeklyContest"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dmers\AppData\Local\Temp\surefire3877641952265853066\surefirebooter11832417502268102306.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dmers\AppData\Local\Temp\surefire86411069188002724\surefirebooter4018700882546003499.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Dmers\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.3"/>
-    <property name="user.dir" value="C:\Users\Dmers\Code\LeetCode\6.8.24-weeklyContest"/>
+    <property name="user.dir" value="C:\Users\Dmers\Code\Spring\PeepPeaProtect\LeetCode-Contest\6.8.24-weeklyContest"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -60,8 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testSolutionFour" classname="com.example.solutions.TestSolutions" time="0.015"/>
-  <testcase name="testSolutionThree" classname="com.example.solutions.TestSolutions" time="0.001"/>
+  <testcase name="testSolutionThree" classname="com.example.solutions.TestSolutions" time="0.014"/>
   <testcase name="testSolutionOne" classname="com.example.solutions.TestSolutions" time="0.001"/>
-  <testcase name="testSolutionTwo" classname="com.example.solutions.TestSolutions" time="0.001"/>
+  <testcase name="testSolutionTwo" classname="com.example.solutions.TestSolutions" time="0.002"/>
 </testsuite>
