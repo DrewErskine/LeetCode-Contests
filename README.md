@@ -25,23 +25,23 @@ Each contest and template directory includes:
 > **How to Use the Template**
 
 2. **Navigate to the Template Folder**:
-   \```bash
+   ```
    cd competitionTemplate
-   \```
+   ```
 
 3. **Customize the Template**:
    - Update `Solution1.java`, `Solution2.java`, etc., with your solutions.
    - Write your tests in `TestSolutions.java`.
 
 4. **Build the Project** (Requires Maven):
-   \```bash
+   ```
    mvn clean install
-   \```
+   ```
 
 5. **Run Tests**:
-   \```bash
+   ```
    mvn test
-   \```
+   ```
 
 > **LeetCode Competitions**
 
