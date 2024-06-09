@@ -23,3 +23,12 @@ public class Solution1 {
         }
     }
 }
+
+
+// ---
+// Logic Flow:
+// 1. Calculate the total length of each cycle as double the number of children minus two.
+// 2. Use modular arithmetic to find the child's position in the current cycle after k steps.
+// 3. Determine if the current step requires reversing the direction based on the position in the cycle.
+// 4. If in the first half of the cycle, return the position directly.
+// 5. If in the second half, calculate the position by subtracting from the cycle length to simulate reversal.

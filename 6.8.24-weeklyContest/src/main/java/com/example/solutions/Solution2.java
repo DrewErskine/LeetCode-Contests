@@ -80,3 +80,20 @@ public class Solution2 {
         return x1;
     }
 }
+
+
+// ---
+// Logic Flow:
+// 1. Initialize factorials and inverse factorials up to 'maxTime'.
+// 2. Compute factorials for all integers up to 'maxTime' using modular arithmetic.
+// 3. Calculate inverse factorials using the extended Euclidean algorithm.
+// 4. Define the combinatorial function to compute the value after k seconds, which integrates factorial calculations.
+// 5. Implement the 'combine' method that computes combinations using precomputed factorials and inverse factorials.
+// 6. Handle all combinatorial logic under modular arithmetic to ensure correctness despite potential large number operations.
+
+// Extended Euclidean Algorithm Explanation:
+// The euclideanInverse function uses the extended Euclidean algorithm to find modular inverses, which is crucial for division operations in modular arithmetic. This algorithm:
+//     - Extends the basic Euclidean algorithm for greatest common divisor (GCD) by also calculating the coefficients (x and y) such that ax + by = gcd(a, b).
+//     - These coefficients help in deriving the modular inverse, particularly the coefficient associated with 'a' when 'b' is a modulus.
+//     - This inverse is essential for solving equations of the form (a * x) % m = 1, where 'a' is the number and 'm' is the modulus.
+//     - The algorithm efficiently computes the inverse even for large numbers, ensuring that the operations within the combinatorial calculations are feasible and efficient.
