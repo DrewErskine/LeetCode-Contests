@@ -3,20 +3,23 @@ package com.example.solutions;
 public class Solution1 {
 
     /**
-     * Calculates the position of a child in a circle after k steps, considering
-     * a reversal in counting direction at each cycle end.
+     * Calculates the final position of a child in a circle after moving k steps,
+     * considering a reversal in counting direction at each cycle end. This function
+     * simulates a variant of the Josephus problem with alternating directions.
+     * The calculation uses modular arithmetic to determine the child's position
+     * within each cycle, defined by twice the number of children minus two.
      *
-     * @param n Total number of children.
-     * @param k Total steps to move.
+     * @param n Total number of children in the circle.
+     * @param k Total steps to move in the circle.
      * @return The position of the child after k steps.
      */
     public int numberOfChild(int n, int k) {
-        int cycleLength = 2 * (n - 1);
-        int p = k % cycleLength;
+        int cycleLength = 2 * (n - 1); // Cycle length is defined as two rounds minus the last position.
+        int p = k % cycleLength; // Current position in the cycle after k steps.
         if (p < n) {
-            return p;
+            return p; // No reversal in direction, direct position.
         } else {
-            return cycleLength - p;
+            return cycleLength - p; // Reverse direction calculation.
         }
     }
 }

@@ -9,7 +9,7 @@ public class Solution3 {
      * @param param2 Description of param2 (e.g., target value to find).
      * @return Description of what is being returned (e.g., index of the target).
      */
-    public int solve(int param1, int param2) {
+    public int problem1Method(int param1, int param2) {
         // Implement the solution logic here
         int result = 0;
 
