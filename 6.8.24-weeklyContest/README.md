@@ -6,9 +6,9 @@ LeetCode Weekly Contest 401 - 6/8/2024
 
 ## Problems
 
-1. **Problem 1:** [Problem Title](#problem-1-title)
-2. **Problem 2:** [Problem Title](#problem-2-title)
-3. **Problem 3:** [Problem Title](#problem-3-title)
+1. **Problem 1:** [Find the Child Who Has the Ball After K Seconds](#problem-1-title)
+2. **Problem 2:** [Find the N-th Value After K Seconds](#problem-2-title)
+3. **Problem 3:** [Maximum Total Reward Using Operations 1](#problem-3-title)
 
 ### Problem 1: 1. __Find the Child Who Has the Ball After K Seconds__ 
 
@@ -76,9 +76,11 @@ Constraints:
 ```
 
 #### Solution
-@TODO code review - github.com/dmerskine19/LeetCode-Contest/Contest-1/Solution1
+```src/main/java/com/example/solutions/Solution1.java```
+
 
 ---
+
 
 ### Problem 2: __Find the N-th Value After K Seconds __
 
@@ -128,11 +130,13 @@ Constraints:
 ```
 
 #### Solution
-@TODO code review - github.com/dmerskine19/LeetCode-Contest/Contest-1/Solution2
+```src/main/java/com/example/solutions/Solution2.java```
+
 
 ---
 
-### Problem 3: __Maximum Total Reward Using Operations I__
+
+### Problem 3: __Maximum Total Reward Using Operations 1__
 
 *You are given an integer array rewardValues of length n, representing the values of rewards.
 Initially, your total reward x is 0, and all indices are unmarked. You are allowed to perform the following operation any number of times:
@@ -166,4 +170,4 @@ Constraints:
 ```
 
 #### Solution
-@TODO code review - github.com/dmerskine19/LeetCode-Contest/Contest-1/Solution3
+```src/main/java/com/example/solutions/Solution3.java```
