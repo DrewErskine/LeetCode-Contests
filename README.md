@@ -1,5 +1,5 @@
 
-# LeetCode Competition Question Archive
+# LeetCode Competition Archive
 
 > **Overview**
 
