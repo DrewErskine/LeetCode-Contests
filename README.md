@@ -5,6 +5,8 @@
 
 This repository is organized to store my past LeetCode competition questions, along with the Java solutions and templates prepared in a Maven project structure. It is intended for programmers preparing for coding competitions or interviews, offering a structured environment to run and test solutions efficiently.
 
+---
+
 > **Repository Structure**
 
 - **6.8.24-weeklyContest**: Contains solutions for a specific contest held on June 8, 2024.
@@ -21,6 +23,8 @@ Each contest and template directory includes:
 - Java source files under `src/main/java`.
 - Java test files under `src/test/java`.
 - Compiled outputs in `target`.
+
+---
 
 > **How to Use the Template**
 
@@ -42,6 +46,8 @@ Each contest and template directory includes:
    ```
    mvn test
    ```
+
+---
 
 > **LeetCode Competitions**
 
