@@ -1,6 +1,6 @@
 package com.example.solutions;
 
-public class SolutionOne {
+public class Solution1 {
     public int functionOne(int n, int k) {
 
         // Code

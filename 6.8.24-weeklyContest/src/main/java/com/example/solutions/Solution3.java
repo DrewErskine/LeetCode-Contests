@@ -1,7 +1,7 @@
 package com.example.solutions;
 
-public class SolutionFour {
-    public int functionFour(int n, int k) {
+public class Solution3 {
+    public int functionThree(int n, int k) {
 
         // Code
 

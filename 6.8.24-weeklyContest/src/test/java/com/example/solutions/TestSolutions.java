@@ -7,7 +7,7 @@ public class TestSolutions {
 
     @Test
     public void testSolutionOne() {
-        SolutionOne solutionOne = new SolutionOne();
+        Solution1 solutionOne = new Solution1();
         
         // Example test cases for Solution1
         int n = 3;
@@ -19,7 +19,7 @@ public class TestSolutions {
     
     @Test
     public void testSolutionTwo() {
-        SolutionTwo solutionTwo = new SolutionTwo();
+        Solution2 solutionTwo = new Solution2();
         
         // Example test cases for Solution2
         int n = 3;
@@ -31,7 +31,7 @@ public class TestSolutions {
 
     @Test
     public void testSolutionThree() {
-        SolutionThree solutionThree = new SolutionThree();
+        Solution3 solutionThree = new Solution3();
         
         // Example test cases for Solution3
         int n = 3;
@@ -43,7 +43,7 @@ public class TestSolutions {
 
     @Test
     public void testSolutionFour() {
-        SolutionFour solution = new SolutionFour();
+        Solution4 solution = new Solution4();
         
         // Example test cases for Solution
         int n = 3;
