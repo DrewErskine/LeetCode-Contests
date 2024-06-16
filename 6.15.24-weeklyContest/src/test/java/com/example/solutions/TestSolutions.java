@@ -1,6 +1,6 @@
 package com.example.solutions;
-
 import org.junit.jupiter.api.Test;
+
 
 public class TestSolutions {
 
